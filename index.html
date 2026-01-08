@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Basics</title>
+</head>
+<body>
+    <header>
+        <h1>Vaishnav Kedar</h1>
+        <img id="logo" src="https://plus.unsplash.com/premium_photo-1764688208458-590d46c3b0e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8" alt="Profile">
+    </header>
+
+    <!-- Vibe setter: place the MP3 file in the same folder as this HTML -->
+    <audio id="vibe" src="soft-brown-noise-299934.mp3" controls loop preload="auto">
+        Your browser does not support the audio element.
+    </audio>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#examples">Examples</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>HTML Basics</h2>
+            <p>HTML (HyperText Markup Language) defines the structure of web pages. This page shows basic, semantic elements and simple styling.</p>
+        </section>
+
+        <section id="examples">
+            <h2>Examples</h2>
+
+            <article>
+                <h3>Lists</h3>
+                <p>Unordered and ordered lists:</p>
+                <ul>
+                    <li>Item one</li>
+                    <li>Item two</li>
+                    <li>Item three</li>
+                </ul>
+                <ol>
+                    <li>First</li>
+                    <li>Second</li>
+                </ol>
+            </article>
+
+            <article>
+                <h3>Table</h3>
+                <table>
+                    <caption>Simple table</caption>
+                    <thead>
+                        <tr><th>Feature</th><th>Example</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Header</td><td>&lt;h1&gt; - &lt;h6&gt;</td></tr>
+                        <tr><td>List</td><td>&lt;ul&gt; / &lt;ol&gt;</td></tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name">
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write a message"></textarea>
+               
+                <button type="submit">Send</button>
+                 <button id="forw">Forward</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vaishnav Kedar</p>
+    </footer>
+</body>
+</html>

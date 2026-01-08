@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f6f8fb;
+  color: #222;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+#logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+main {
+  margin-top: 16px;
+}
+section {
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+}
+button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border: none;
+  background: #0366d6;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 16px;
+  text-align: center;
+  color: #555;
+}
+
+#examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+#vibe{
+   margin-left: 80vh;
+}
